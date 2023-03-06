@@ -1,0 +1,16 @@
+header {
+display: flex;
+justify-content: space-between;
+}
+
+.nav{
+    display: flex;
+    gap: 60px;
+    margin-right: 50px;
+}
+.link_home, .link_about {
+color: red;
+text-decoration: none;
+font-size: 22px;
+
+}

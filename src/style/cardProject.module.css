@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@100;300;400;500&display=swap');
+
+.gallery {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 50px;
+}
+.cardList{
+    width: 25%;
+    background-color: black;
+    border-radius: 19px;
+    border: 2px solid white;
+    box-shadow: 3px -3px 6px 5px #7e3b3b
+}
+.cardList:hover{
+    scale: 1.1;
+}
+.cover{
+    width: 100%;
+    height: 160px;
+    border-radius: 15px 15px 0px 0px;
+    object-fit: cover;
+}
+.card_title{
+    color: red;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 20px;
+}
+.link{
+    text-decoration: none;
+}
+.description{
+    position: absolute;
+  bottom: -130px;
+  left: 0;
+  width: 95%;
+  text-align: center;
+  background-color: black;
+  border: 2px solid red;
+  color: white;
+  font-size: 20px;
+  border-radius: 70px ;
+  padding: 10px;
+  z-index: 1;
+}
+.description::before {
+    content: "";
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent red transparent;
+   
+   
+  }
