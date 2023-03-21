@@ -1,0 +1,34 @@
+[
+    {
+        "logo": "/logo/CSS3.svg",
+        "title": "logo-css3",
+        "language":"css"
+    },
+    {
+        "logo": "logo/sass.png",
+        "title": "logo-sass",
+        "language":"sass"
+
+    },
+    {
+        "logo": "logo/seo.webp",
+        "title": "logo-seo",
+        "language":"seo"
+    },
+
+    {
+        "logo": "/logo/logoJavascript.png",
+        "title": "logo-javascript",
+        "language":"javascript"
+    },
+    {
+        "logo": "/logo/node-js.svg",
+        "title": "logo-node-js",
+        "language":"node-js"
+    },
+    {
+        "logo": "/logo/react-logo.png",
+        "title": "logo-react-js",
+        "language":"react"
+    }
+]

@@ -1,18 +1,18 @@
-
+import style from "../style/home.module.css"
+import Banniere from "../components/banniere"
 import Header from "../components/header"
-import Card from "../components/card"
-import style from "../style/body.module.css"
+import Gallery from "../components/gallery"
+
 
 
 function home() {
 return (
 
-    <div className={style.body}>
+    <div className={style.home}>
         <Header />
-        <h1>Bienvenue sur mon portefolio</h1>
-        <Card />
-
-
+        <Banniere />
+        <Gallery />
+       
     </div>
 )
 

@@ -1,0 +1,11 @@
+
+.card{
+    width: 70%;
+    border: 2px solid rgba(7, 195, 7, 0.915);
+}
+.img{
+    width: 30%;
+}
+.card_title{
+    color: rgba(7, 195, 7, 0.915);
+}

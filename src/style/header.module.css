@@ -1,16 +1,31 @@
-header {
-display: flex;
-justify-content: space-between;
-}
+
 
 .nav{
     display: flex;
-    gap: 60px;
-    margin-right: 50px;
+    justify-content: flex-end;
+  
 }
-.link_home, .link_about {
-color: red;
-text-decoration: none;
-font-size: 22px;
+.link_contener{
 
+    display: flex;
+    border-radius: 15px 15px 0px 0px;
+    box-shadow: inset -1px 1px 6px 0px rgba(7, 195, 7, 0.915);
+    width: 50%;
+    justify-content: space-between;
+    border: 2px solid rgba(7, 195, 7, 0.915);
+    
+    
+}
+.link{
+    padding: 15px;
+    border-right: 2px solid rgba(7, 195, 7, 0.915);
+    width: 100%;
+    text-align: center;
+    color: rgba(7, 195, 7, 0.915);
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.link:last-child{
+    border-right: none;
 }
