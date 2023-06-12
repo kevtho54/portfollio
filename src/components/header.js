@@ -9,7 +9,7 @@ function Header (){
         <div className={style.link_contener}>
         <NavLink className={style.link} to="/home/"> Accueil</NavLink>
         <NavLink className={style.link} to="/about/">Portfolio</NavLink>
-        <NavLink className={style.link}to="/about/">Contact</NavLink>
+        <NavLink className={style.link}to="#galleryFormation">Contact</NavLink>
         </div>
 
         </nav>    

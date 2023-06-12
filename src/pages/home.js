@@ -1,7 +1,7 @@
 import style from "../style/home.module.css"
 import Banniere from "../components/banniere"
 import Header from "../components/header"
-import Gallery from "../components/gallery"
+import Gallery from "../components/projetFormation"
 
 
 
