@@ -1,20 +1,18 @@
+import Header from "../components/header.js"
+import Presenting from "../components/presenting.js"
 import style from "../style/home.module.css"
-import Banniere from "../components/banniere"
-import Header from "../components/header"
-import Gallery from "../components/projetFormation"
 
 
 
-function home() {
+
+function Home() {
 return (
 
     <div className={style.home}>
         <Header />
-        <Banniere />
-        <Gallery />
-       
+        <Presenting />
     </div>
 )
 
 }
-export default home
+export default Home

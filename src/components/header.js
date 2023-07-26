@@ -1,22 +1,20 @@
+import cv from "../assets/CV_internet.pdf"
+import style from"../style/header.module.css"
 
-import style from "../style/header.module.css"
-import { NavLink } from "react-router-dom"
-
-function Header (){
+function Header(){
     return(
-        <div className={style.header}>
+    <header className={style.header}>
+        <p className={style.logo}>Logo</p>
         <nav className={style.nav}>
-        <div className={style.link_contener}>
-        <NavLink className={style.link} to="/home/"> Accueil</NavLink>
-        <NavLink className={style.link} to="/about/">Portfolio</NavLink>
-        <NavLink className={style.link}to="#galleryFormation">Contact</NavLink>
-        </div>
-
-        </nav>    
-
-        </div>
+            <ul className={style.nav_ul}>
+                <li><a className={style.nav_a} href={cv} download="CV Kévin Thomassin.pdf">Mon CV</a></li>
+                <li><a className={style.nav_a} href="#accueil">Accueil</a></li>
+                <li><a className={style.nav_a} href="#Contact">Contact</a></li>
+                <li><a className={style.nav_a} href="#Portfollio">Portfollio</a></li>
+            </ul>
+        </nav>
         
-        
+    </header>
     )
 }
 export default Header
