@@ -1,34 +1,87 @@
 [
     {
-        "logo": "/logo/CSS3.svg",
-        "title": "logo-css3",
-        "language":"css"
+        "id": "912b1257-e38e-4912-97aa-438074b0ff44",
+        "logo": "/logo/python.png",
+        "title": "logo-python",
+        "language":"Python"
     },
     {
-        "logo": "logo/sass.png",
-        "title": "logo-sass",
-        "language":"sass"
-
-    },
-    {
-        "logo": "logo/seo.webp",
-        "title": "logo-seo",
-        "language":"seo"
-    },
-
-    {
-        "logo": "/logo/logoJavascript.png",
-        "title": "logo-javascript",
-        "language":"javascript"
-    },
-    {
-        "logo": "/logo/node-js.svg",
-        "title": "logo-node-js",
-        "language":"node-js"
-    },
-    {
+        "id": "88728f11-c7a2-4afc-8734-46cc676dd855",
         "logo": "/logo/react-logo.png",
         "title": "logo-react-js",
-        "language":"react"
+        "language":"React.js"
+    },
+    {
+        "id": "1a7a5158-072a-4dce-ae59-1ae58e9d9b28",
+        "logo": "/logo/nuxt.png",
+        "title": "logo-nuxt.js",
+        "language":"Nuxt.js"
+    },
+    {
+        "id": "9c238c05-ae9d-4fb0-b731-35847b327786",
+        "logo": "/logo/logoJavascript.png",
+        "title": "logo-javascript",
+        "language":"Javascript"
+    },
+    {
+        "id": "913ab618-2087-49dc-a953-7ee21956dd80",
+        "logo": "/logo/node-js.png",
+        "title": "logo-node-js",
+        "language":"Node.js"
+    },
+    {
+        "id": "20343d67-8236-4429-bf42-ca0bc4db8bb0",
+        "logo": "/logo/github.png",
+        "title": "logo-github",
+        "language":"GitHub"
+    },
+    {
+        "id": "01b034bb-081f-41fc-b6d9-e9d6943cf2d2",
+        "logo": "/logo/firebase.png",
+        "title": "logo-firebase",
+        "language":"Firebase"
+    },
+    {
+        "id": "423a785a-d761-4eeb-ab09-01839d1c571b",
+        "logo": "/logo/html.png",
+        "title": "logo-html",
+        "language":"Html"
+    },
+    {
+        "id": "b86a444b-fb0c-4f05-bf42-c984fa82ef4c",
+        "logo": "/logo/CSS3.png",
+        "title": "logo-css3",
+        "language":"Css"
+    },
+    {
+        "id": "fc18c075-985b-4c07-ac0b-1b9153ae8721",
+        "logo": "/logo/bootstrap.png",
+        "title": "logo-bootstrap",
+        "language":"Bootstrap 5"
+    },
+    {    
+        "id": "2549ab23-69c9-4a71-a82c-42e087865029",
+        "logo": "logo/sass.png",
+        "title": "logo-sass",
+        "language":"Sass"
+
+    },
+    {
+        "id": "fdf960b6-3808-4540-9362-7ccda6d67851",
+        "logo": "logo/seo.png",
+        "title": "logo-seo",
+        "language":"Optimisation Seo"
+    },
+    {
+        "id": "d72ba429-cf19-4a17-be89-21c37a2c22a2",
+        "logo": "/logo/express.png",
+        "title": "logo-express-js",
+        "language":"Express.js"
+    },
+    {
+        "id": "2806d7a8-d8ed-40ce-8ad2-6de3a6c4b323",
+        "logo": "/logo/mongoDB.png",
+        "title": "logo-mongoDB",
+        "language":"MongoDB"
     }
 ]

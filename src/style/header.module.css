@@ -1,6 +1,6 @@
 .header{
-    background: rgb(53,28,218);
-    background: linear-gradient(180deg, rgba(53,28,218,1) 0%, rgba(9,3,189,1) 50%, rgba(5,12,193,1) 100%);
+    background: rgb(25,79,14);
+background: linear-gradient(103deg, rgba(25,79,14,1) 0%, rgba(0,0,0,1) 61%, rgba(48,189,35,1) 100%);
     display: flex;
     justify-content: space-between;
 }

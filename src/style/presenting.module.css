@@ -1,13 +1,14 @@
 .presenting{
   display: flex;
   justify-content: center;
+  
 
 }
 .contener_photo{
     width: 120px;
     height: 120px;
     margin-left: 30px;
-    margin-top: 129px;
+    margin-top: 111px;
     display: flex;
     flex-direction: column;
     gap: 36px;
@@ -17,7 +18,7 @@
     height: 100%;
     border-radius:50%;
     object-fit: cover;
-    box-shadow: 0px 0px 20px 17px red;
+    box-shadow: 0px 0px 20px 17px rgb(19, 189, 30);
 }
 .text_description{
     margin-top: 80px;
