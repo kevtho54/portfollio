@@ -3,32 +3,37 @@
         "title": "Portfolio",
         "description": "Réalisation de mon portfolio en utilisant react",
         "code":"https://github.com/kevtho54/portfollio.git",
-        "cover":"/cover/portfollio.jpg"
+        "cover":"/cover/portfollio.jpg",
+        "texte":"J'ai crée mon portfolio en utilisant React, Pour faciliter la gestion des données de mes projets, j'ai créé un fichier JSON contenant les détails de chaque projet, tels que le titre, la description, les liens et les images de couverture. Ensuite, j'ai décidé de crée une fenetre modale qui permet d'affiché plus de detail sur la conception de toute mes applications. En plus de présenter mes projets, j'ai également inclus une page de contact pour permettre aux visiteurs de me contacter pour toute demande de réalisation de projet ou de collaboration. Cette page fournit un moyen pratique pour les clients potentiels de me joindre directement et de discuter de leurs besoins en matière de développement de logiciels. "
 },
     {   "id": "afeff1fa-dffc-45e9-8984-19cf0316d8f5",
         "title": "Le juste prix",
         "description": "Réalisation du mini jeu en utilisant python et tkinter",
         "code":"https://github.com/kevtho54/the-right-price/tree/master",
-        "cover":"/cover/Le_juste_prix.jpg"
+        "cover":"/cover/Le_juste_prix.jpg",
+        "texte":"J'ai crée cette petite aplication du juste prix en utilisant python et tkinter. Ce tout premier projet en python ma permis de valider mes toute premières compétences en python et m'a permis de decouvrir un nouveau langage. J'ai également utiliser tkinstaller pour crée un fichier .exe du jeu afin que tout le monde puisse y jouer."
 },
     {   "id": "060f20af-dc1b-443a-858c-7ddb7854f42e",
         "title": "Xoribous",
         "description": "Réalisation d'un site vitrine pour une collection de NFT",
         "code":"https://github.com/kevtho54/portfollio.git",
-        "cover":"/cover/portfollio.jpg"
+        "cover":"/cover/portfollio.jpg",
+        "texte": "Le projet xooribous a été mon premier projet pour un client. ce site réaliser en html css et javascript et un site vitrine pour une collection de nft."
 },
 {       "id": "b2658869-122b-4480-baca-c0e97eb03034",
         "title": "Projet pokedex",
         "description": "Réalisation d'un pokedex pour un test front en nuxt.js Dans ce test, je devais crée une liste de pokemon et y ajouter la possibilité de l'inclure dans une équipe et également d'y ajouter une page avec plus de details sur le pokemon ",
         "code":"https://github.com/kevtho54/my-pokedex.git",
-        "cover":"/cover/pokedex.png"
+        "cover":"/cover/pokedex.png",
+        "texte":"Le projet pokedex a été réalisé avec le framework nuxt.js et bootstrap 5. Ce petit projet a été réalisé dans le cadre d'un test front pour une entreprise. dans un premier temps, je devait afficher une page d'accueil qui devait contenir au moins 100 pokémons. comme la nostalige ma prise, j'ai réaliser le pokedex de la première génération. Ensuite, au clique sur la carte, l'utilisateur est redirigé vers une nouvelle page qui contient la fiche du pokémon avec plus de details. "  
     },
     {   "id": "c7e8ae03-400b-46be-a9c2-055b3dbc0d9a",
         "title": "Projet booki",
         "description": "Transformez une maquette en site web avec HTML & CSS ",
         "lien": "https://kevtho54.github.io/Projet-booki/#",
         "code":"https://github.com/kevtho54/Projet-booki.git",
-        "cover":"/cover/projetbooki.png"
+        "cover":"/cover/projetbooki.png",
+        "texte":"Le projet booki a été mon tout premier projet réalisé en formation. Dans ce projet, nous devons recopier a l'identique une maquette html et css."
     },
     {
         "id": "9b8b0d61-e159-4956-888e-af800dd599ce",
@@ -36,14 +41,16 @@
         "description": "Dynamisez une page web avec des animations CSS ",
         "lien": "https://kevtho54.github.io/Projet-booki/#",
         "code":"https://github.com/kevtho54/projet_ohmyfood.git",
-        "cover":"/cover/ohmyfood.png"
+        "cover":"/cover/ohmyfood.png",
+        "texte":"Le projet ojmyfood est un projet réaliser en html css avec l'utilisation de sass et des animations css."
     },
     {   "id": "abce1665-d15e-4e0c-ae5d-5c2a01a12524",
         "title": "Projet La Panthère",
         "description": "Optimisez un site web existant en améliorant le SEO",
         "lien": "https://kevtho54.github.io/Projet-booki/#",
         "code":"https://github.com/kevtho54/projet_la_panthere.git",
-        "cover":"/cover/la_panthère.png"
+        "cover":"/cover/la_panthère.png",
+        "texte":"dans ce projet, je devais optimiser un site déjà existant pour le référencement seo en utilisant des outils comme webdev et ligth house"
     },
     {   
         "id": "b5bf6a92-4d45-4e37-93fb-9025b7d61da0",
@@ -51,7 +58,10 @@
         "description": "Construisez un site e-commerce en JavaScript",
         "lien": "https://kevtho54.github.io/Projet-booki/#",
         "code":"https://github.com/kevtho54/Projet_kanap.git",
-        "cover":"/cover/kanap.png"
+        "cover":"/cover/kanap.png",
+        "texte":"Le projet kanap est un site de e-commerce. ici, je devais réaliser la partie front end du site avec javascript, gerer l'affichage, ainsi que la page produit et la page panier."
+
+
     },
     {
         "id": "0f630fde-ce1f-4ba0-bbd9-559a9cd9cbab",
@@ -59,7 +69,8 @@
         "description": "Construisez une API sécurisée pour une application d'avis gastronomiques ",
         "lien": "https://kevtho54.github.io/Projet-booki/#",
         "code":"https://github.com/kevtho54/projet_piiquante.git",
-        "cover":"/cover/piquante.png"
+        "cover":"/cover/piquante.png",
+        "texte":"Le projet piiquente est un projet réaliser avec node.js et express.js. Dans ce projet, je devais realiser toute la partie back-en d'un site d'avis gastronomique. J'ai également utilisé la base de donnée mongoDB."
     },
     {
         "id": "4eb27d03-9a42-498f-b46b-71ad6e348dcd",
@@ -67,7 +78,8 @@
         "description": "Créez une application web de location immobilière avec React ",
         "lien": "https://kevtho54.github.io/Projet-booki/#",
         "code":"https://github.com/kevtho54/projet-kasa.git",
-        "cover":"/cover/kasa.png"
+        "cover":"/cover/kasa.png",
+        "texte":"Dans se projet, je devais crée une interface utilisateur pour un site de location immobilière en react. pour cela j'avais à ma disposition des composant réaliser sur figma que je devais reproduire."
     }
 
 ]

@@ -22,7 +22,6 @@
 .card{
     width: 15%;
     background: rgb(1,0,0);
-    background: rgb(1,0,0);
     background: linear-gradient(131deg, rgba(1,0,0,1) 0%, rgba(16,15,28,1) 64%, rgba(52,184,22,1) 100%);
     border-radius: 20px;
     display: flex;
@@ -33,4 +32,29 @@
 .imgCard{
     width: 100%;
     border-radius: 20px 20px 0px 0px;
+}
+.custom{
+    position: absolute;
+    inset: 100px;
+    border: 1px solid rgb(204, 204, 204);
+    background: rgb(1,0,0);
+    background: linear-gradient(131deg, rgba(1,0,0,1) 0%, rgba(16,15,28,1) 64%, rgba(52,184,22,1) 100%);
+    overflow: auto;
+    border-radius: 4px;
+    outline: none;
+    padding: 20px;
+}
+.custom_modal{
+    position: fixed;
+   inset: 0px;
+   background-color: rgba(255, 255, 255, 0.75);
+ 
+}
+.btn_modal{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    font-size: 20px;
+    background-color: red;
+    color: white;
 }
