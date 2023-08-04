@@ -12,7 +12,7 @@
         "code":"https://github.com/kevtho54/the-right-price/tree/master",
         "cover":"/cover/Le_juste_prix.jpg",
         "texte":"J'ai crée cette petite aplication du juste prix en utilisant python et tkinter. Ce tout premier projet en python ma permis de valider mes toute premières compétences en python et m'a permis de decouvrir un nouveau langage. J'ai également utiliser tkinstaller pour crée un fichier .exe du jeu afin que tout le monde puisse y jouer."
-},
+    },
     {   "id": "060f20af-dc1b-443a-858c-7ddb7854f42e",
         "title": "Xoribous",
         "description": "Réalisation d'un site vitrine pour une collection de NFT",
@@ -25,6 +25,10 @@
         "description": "Réalisation d'un pokedex pour un test front en nuxt.js Dans ce test, je devais crée une liste de pokemon et y ajouter la possibilité de l'inclure dans une équipe et également d'y ajouter une page avec plus de details sur le pokemon ",
         "code":"https://github.com/kevtho54/my-pokedex.git",
         "cover":"/cover/pokedex.png",
+        "pictures": [
+			"/pictures/pokedex.png",
+            "/pictures/pokedex2.png"
+		],
         "texte":"Le projet pokedex a été réalisé avec le framework nuxt.js et bootstrap 5. Ce petit projet a été réalisé dans le cadre d'un test front pour une entreprise. dans un premier temps, je devait afficher une page d'accueil qui devait contenir au moins 100 pokémons. comme la nostalige ma prise, j'ai réaliser le pokedex de la première génération. Ensuite, au clique sur la carte, l'utilisateur est redirigé vers une nouvelle page qui contient la fiche du pokémon avec plus de details. "  
     },
     {   "id": "c7e8ae03-400b-46be-a9c2-055b3dbc0d9a",
@@ -33,6 +37,10 @@
         "lien": "https://kevtho54.github.io/Projet-booki/#",
         "code":"https://github.com/kevtho54/Projet-booki.git",
         "cover":"/cover/projetbooki.png",
+        "pictures": [
+			"/pictures/booki1.png",
+            "/pictures/booki2.png"
+		],
         "texte":"Le projet booki a été mon tout premier projet réalisé en formation. Dans ce projet, nous devons recopier a l'identique une maquette html et css."
     },
     {
@@ -42,6 +50,12 @@
         "lien": "https://kevtho54.github.io/Projet-booki/#",
         "code":"https://github.com/kevtho54/projet_ohmyfood.git",
         "cover":"/cover/ohmyfood.png",
+        "pictures": [
+			"/pictures/ohmyfood.png",
+            "/pictures/ohmyfood2.png",
+            "/pictures/ohmyfood3.png",
+            "/pictures/ohmyfood4.png"
+		],
         "texte":"Le projet ojmyfood est un projet réaliser en html css avec l'utilisation de sass et des animations css."
     },
     {   "id": "abce1665-d15e-4e0c-ae5d-5c2a01a12524",
@@ -50,6 +64,9 @@
         "lien": "https://kevtho54.github.io/Projet-booki/#",
         "code":"https://github.com/kevtho54/projet_la_panthere.git",
         "cover":"/cover/la_panthère.png",
+        "pictures": [
+			"/pictures/la_panthere.png"
+        ],
         "texte":"dans ce projet, je devais optimiser un site déjà existant pour le référencement seo en utilisant des outils comme webdev et ligth house"
     },
     {   
@@ -59,6 +76,11 @@
         "lien": "https://kevtho54.github.io/Projet-booki/#",
         "code":"https://github.com/kevtho54/Projet_kanap.git",
         "cover":"/cover/kanap.png",
+        "pictures": [
+			"/pictures/kanap.png",
+            "/pictures/kanap2.png",
+            "/pictures/kanap3.png"
+		],
         "texte":"Le projet kanap est un site de e-commerce. ici, je devais réaliser la partie front end du site avec javascript, gerer l'affichage, ainsi que la page produit et la page panier."
 
 
@@ -79,6 +101,11 @@
         "lien": "https://kevtho54.github.io/Projet-booki/#",
         "code":"https://github.com/kevtho54/projet-kasa.git",
         "cover":"/cover/kasa.png",
+        "pictures": [
+			"/pictures/kasa.png",
+            "/pictures/kasa2.png",
+            "/pictures/kasa3.png"
+		],
         "texte":"Dans se projet, je devais crée une interface utilisateur pour un site de location immobilière en react. pour cela j'avais à ma disposition des composant réaliser sur figma que je devais reproduire."
     }
 

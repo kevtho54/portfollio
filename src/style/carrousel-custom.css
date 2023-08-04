@@ -1,0 +1,28 @@
+.carousel-slider{
+    width: 50%;
+}
+.carousel{
+    width: 80% !important;
+    text-align: center;
+    margin: auto;
+    
+}
+.carousel.carousel-slider {
+    margin: auto;
+}
+.carousel .slide {
+    min-width: 100%;
+    height: auto;
+    position: relative;
+    text-align: center;
+}
+.imgCarousel{
+   width: auto;
+   height: auto;
+}
+.contenerImg{
+    height: 100%;
+}
+.thumb{
+    width: 150px !important ;
+}

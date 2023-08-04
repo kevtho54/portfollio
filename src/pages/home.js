@@ -2,6 +2,7 @@ import Header from "../components/header.js"
 import DataLanguage from "../components/language.js"
 import Presenting from "../components/presenting.js"
 import DataProject from "../components/project.js"
+import Contact from "../components/contact.js"
 import style from "../style/home.module.css"
 
 
@@ -15,6 +16,7 @@ return (
         <Presenting />
         <DataLanguage />
         <DataProject />
+        <Contact />
     </div>
 )
 

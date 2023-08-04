@@ -1,0 +1,38 @@
+#contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 80px;
+    border-top: 3px solid green
+}
+.name, .firstname, .email, .message{
+    display: flex;
+    flex-direction: column;;
+}
+.contactTitle{
+    font-size: 1.5rem;
+}
+.contenerContact{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+form{
+    width: 40%;
+}
+input{
+    height: 25px;
+    border-radius: 20px;
+
+}
+textarea{
+    height: 150px;
+}
+.btnContact{
+    width: 25%;
+    margin: auto;
+    border-radius: 20px;
+    height: 40px;
+    margin-bottom: 50px;
+}

@@ -35,7 +35,7 @@
 }
 .custom{
     position: absolute;
-    inset: 100px;
+    inset: 50px;
     border: 1px solid rgb(204, 204, 204);
     background: rgb(1,0,0);
     background: linear-gradient(131deg, rgba(1,0,0,1) 0%, rgba(16,15,28,1) 64%, rgba(52,184,22,1) 100%);

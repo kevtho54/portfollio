@@ -12,6 +12,7 @@ export function Gallery({ title, cover, openModal, id }) {
     <div className={style.card} onClick={() => openModal(id)}>
       <img className={style.imgCard} src={cover} alt={title} />
       <p className={style.titleCard}>{title}</p>
+      
     </div>
   );
 }
@@ -46,6 +47,7 @@ function DataProject() {
             lien={project.lien}
             code={project.code}
             cover={project.cover}
+            pictures={project.pictures}
             openModal={openModal}
           />
         ))}

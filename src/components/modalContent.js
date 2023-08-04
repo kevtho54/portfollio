@@ -1,4 +1,5 @@
 import style from "../style/modal.module.css"
+import Carrousel from "./carrousel";
 
 function ProjectDetails(props){
 const {selectedProject} = props
@@ -12,7 +13,8 @@ return (
   <div className={style.contenerModal}>
      <h2 className={style.title_modal}>{selectedProject.title}</h2>
      <p className={style.description_modal}>{selectedProject.description}</p>
-     <img className={style.img_modal} src={selectedProject.cover} alt={selectedProject.title} />
+      <Carrousel  selectedProject={selectedProject}/>
+       
      <p className={style.texte_modal}>{selectedProject.texte}</p>
      <button><a href={selectedProject.code} target="blank">Code source</a></button>
 
