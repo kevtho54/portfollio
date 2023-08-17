@@ -1,0 +1,16 @@
+.footer{
+    background: linear-gradient(103deg, rgba(25,79,14,1) 0%, rgba(0,0,0,1) 61%, rgba(48,189,35,1) 100%);
+
+}
+.footer, .contenerFooter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imgFooter{
+    width: 55px;
+}
+.socialIcons{
+    list-style-type:none;
+    text-align: center;
+}

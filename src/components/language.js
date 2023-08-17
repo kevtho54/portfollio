@@ -1,5 +1,6 @@
 import language from "../language.json"
 import style from "../style/language.module.css"
+import { forwardRef } from "react"
 
 export function Language({logo, title, language}){
 
@@ -7,15 +8,15 @@ export function Language({logo, title, language}){
         
             <div className={style.card}>
             <img className={style.imgCard} src={logo} alt={title} />
-            <p>{language}</p>
+            <p className={style.titleCard}>{language}</p>
             </div>
 
     )
 }
 
-function DataLanguage(){
+const DataLanguage = forwardRef((props, ref) => {
     return(
-        <section id={style.experience}>
+        <section ref={ref} id={style.experience}>
             <h3 className={style.title_language}>Expériences Technologiques</h3>
         <div className={style.contenerCard}>
              {language.map((language) => (
@@ -31,5 +32,5 @@ function DataLanguage(){
         </section>
     )
 
-}
+})
 export default DataLanguage

@@ -1,10 +1,12 @@
-import React, { useState } from "react";
+import React, { useState, forwardRef } from "react";
 import style from "../style/contact.module.css";
+import axios from "axios";
 
-const Contact = () => {
+
+const Contact = forwardRef((props,ref) => {
   // Définir les états pour chaque champ du formulaire
-  const [nom, setNom] = useState("");
-  const [prenom, setPrenom] = useState("");
+  const [name, setName] = useState("");
+  const [firstname, setFirstName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
@@ -12,22 +14,34 @@ const Contact = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
     // Traiter les données soumises ici (par exemple, les envoyer au serveur)
-    // Pour cet exemple, nous allons simplement les afficher dans la console
-    console.log("Nom:", nom);
-    console.log("preNom:", prenom);
+    
+    axios.post("http://localhost:5000/submit_form",{name, firstname, email, message})
+     .then(response => {
+      console.log(response.data);
+     })
+     .catch(error => {
+      console.log(error);
+     });
+  // Pour cet exemple, nous allons simplement les afficher dans la console
+    console.log("Nom:", name);
+    console.log("preNom:", firstname);
     console.log("Email:", email);
     console.log("Message:", message);
 
     // Réinitialiser le formulaire après la soumission
-    setNom("");
-    setPrenom("");
+    setName("");
+    setFirstName("");
     setEmail("");
     setMessage("");
   };
 
+ 
+  
+ 
+
   return (
-    <section id={style.contact}>
-      <h3 className={style.contactTitle}>Formulaire de contact</h3>
+    <section ref={ref} id={style.contact}>
+      <h2 className={style.contactTitle}>Formulaire de contact</h2>
 
       <form onSubmit={handleSubmit}>
         <div className={style.contenerContact}>
@@ -35,8 +49,8 @@ const Contact = () => {
               <label>Nom:</label>
               <input
                 type="text"
-                value={nom}
-                onChange={(e) => setNom(e.target.value)}
+                value={name}
+                onChange={(e) => setName(e.target.value)}
                 required
               />
             </div>
@@ -45,8 +59,8 @@ const Contact = () => {
               <label>Prénom:</label>
               <input
                 type="text"
-                value={prenom}
-                onChange={(e) => setPrenom(e.target.value)}
+                value={firstname}
+                onChange={(e) => setFirstName(e.target.value)}
                 required
               />
             </div>
@@ -75,6 +89,6 @@ const Contact = () => {
       </form>
     </section>
   );
-};
+});
 
 export default Contact;

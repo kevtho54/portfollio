@@ -2,7 +2,7 @@ import projects from "../projet.json";
 import style from "../style/project.module.css";
 import ReactModal from "react-modal";
 import ProjectDetails from "./modalContent";
-import { useState } from "react";
+import { forwardRef, useState } from "react";
 
 export function Gallery({ title, cover, openModal, id }) {
   return (
@@ -17,7 +17,9 @@ export function Gallery({ title, cover, openModal, id }) {
   );
 }
 
-function DataProject() {
+const DataProject = forwardRef((props, ref) => {
+  
+  
   /* initialisation de la variable d'etat useState */
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [selectedProject, setSelectedProject] = useState(null);
@@ -35,8 +37,8 @@ function DataProject() {
   };
 
   return (
-    <section id={style.project}>
-      <h2>Mes Projets</h2>
+    <section ref={ref}  id={style.project}>
+      <h2 className={style.title}>Mes Projets</h2>
       <div className={style.contenerCard}>
         {projects.map((project) => (
           <Gallery
@@ -49,6 +51,7 @@ function DataProject() {
             cover={project.cover}
             pictures={project.pictures}
             openModal={openModal}
+            
           />
         ))}
         <div>
@@ -67,6 +70,6 @@ function DataProject() {
       </div>
     </section>
   );
-}
+})
 
 export default DataProject;

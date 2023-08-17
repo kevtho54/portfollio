@@ -1,11 +1,23 @@
 .header{
     background: rgb(25,79,14);
-background: linear-gradient(103deg, rgba(25,79,14,1) 0%, rgba(0,0,0,1) 61%, rgba(48,189,35,1) 100%);
+    background: linear-gradient(103deg, rgba(25,79,14,1) 0%, rgba(0,0,0,1) 61%, rgba(48,189,35,1) 100%);
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    z-index: 98; 
+    overflow-anchor: none;  
 }
-.logo{
-    margin-left: 50px;
+.contenerImg{
+    display: flex;
+    gap: 20px;
+}
+.imgHeader{
+    margin-left: 10px;
+    margin-top: 9px;
+    width: 45px;
+    -webkit-animation: pulsate-bck 1.5s ease-in-out infinite both;
+	        animation: pulsate-bck 1.5s ease-in-out infinite both;
 }
 .nav_ul{
     display: flex;
@@ -21,3 +33,35 @@ background: linear-gradient(103deg, rgba(25,79,14,1) 0%, rgba(0,0,0,1) 61%, rgba
 button{
     cursor: pointer;
 }
+
+/* Annimation logo*/
+
+ @-webkit-keyframes pulsate-bck {
+    0% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+    50% {
+      -webkit-transform: scale(0.9);
+              transform: scale(0.9);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  @keyframes pulsate-bck {
+    0% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+    50% {
+      -webkit-transform: scale(0.9);
+              transform: scale(0.9);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  
