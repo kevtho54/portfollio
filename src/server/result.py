@@ -29,8 +29,8 @@ def submit_form():
         try:
             response = requests.post(
                 "https://api.mailgun.net/v3/sandbox9881491b4b1c4deb829e5ea13b2e8dc6.mailgun.org/messages",
-		    auth=("api", "e6e83cdda417fe86261272fda5be35c2-28e9457d-a3f10c5d"),
-		    data={"from": "Kévin Thomassin <postmaster@sandbox9881491b4b1c4deb829e5ea13b2e8dc6.mailgun.org>",
+		    auth=("api", ""),
+		    data={"from": "",
 			"to": "kev.developpeur@gmail.com",
 			"subject": "formulaire de contact portfolio",
 			"text": {text_content}}
