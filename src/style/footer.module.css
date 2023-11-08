@@ -13,4 +13,10 @@
 .socialIcons{
     list-style-type:none;
     text-align: center;
+    padding: 0;
+}
+@media  screen and (max-width: 568px) {
+    .txt_footer{
+        font-size: 0.8rem;
+    }
 }

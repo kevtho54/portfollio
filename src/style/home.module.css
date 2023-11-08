@@ -3,11 +3,13 @@
     src: url(../assets/fonts/Jost/static/Jost-Medium.ttf);
 }
 body{
-font-family: Jost;
-}
-.home {
+    font-family: Jost;
     background: rgb(1,0,0);
     background: linear-gradient(180deg, rgba(1,0,0,1) 0%, rgba(16,15,28,1) 50%, rgba(37,37,38,1) 100%);
+    min-width: 280px;
+}
+.home {
+    background-size: 100%;
     margin-left: auto;
     margin-right: auto;
     color: white;

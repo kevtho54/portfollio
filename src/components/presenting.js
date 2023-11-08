@@ -28,8 +28,7 @@ function Presenting() {
         <p>Aller faire un tour sur <a className={style.link} href="https://github.com/kevtho54" target="blank">mon GitHub</a>
            </p>
       </div>
-      <div className={style.btn_cv}>
-      </div>
+      
     </div>
   );
 }

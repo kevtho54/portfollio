@@ -2,7 +2,7 @@
     width: 50%;
 }
 .carousel{
-    width: 80% !important;
+    width: 100% !important;
     text-align: center;
     margin: auto;
     
@@ -25,4 +25,18 @@
 }
 .thumb{
     width: 150px !important ;
+}
+
+@media screen and (max-width: 576px){
+   
+    .carousel{
+        padding: 0;
+    }
+    .thumb{
+        display: none!important;
+    }
+    .thumbs-wrapper{
+        display: none;
+    }
+    
 }

@@ -65,3 +65,44 @@
     background-color: red;
     color: white;
 }
+@media   (min-Width: 768px) and (max-width: 992px) {
+    .contenerCard{
+        gap: 0px;
+    }
+    .card{
+        width: 40%;
+        margin: 20px;
+        
+    }
+    
+}
+@media   (min-Width: 568px) and (max-width: 768px) {
+    .contenerCard{
+        gap: 0px;
+    }
+    .card{
+        width: 40%;
+        margin: 20px;
+        
+    }
+    .title{
+        font-size: 1.8rem;
+    }
+    
+}
+@media  screen and (max-width: 568px) {
+    .card{
+        width: 100%;
+    }
+    .imgCard{
+        height: 200px;
+    }
+    .title{
+        font-size: 1.8rem;
+    }
+}
+@media  screen and (max-width: 440px) {
+.imgCard{
+    height: 140px;
+}
+}

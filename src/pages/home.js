@@ -8,8 +8,6 @@ import style from "../style/home.module.css"
 import { useRef } from "react"
 
 
-
-
 function Home() {
     // Créez une référence (ref) pour récupérer l'id de la section "Contact"
     const sectionRefContact = useRef(null);
@@ -20,7 +18,6 @@ function Home() {
       if (sectionRefContact.current) {
         sectionRefContact.current.scrollIntoView({ behavior: "smooth",});
       
-        console.log("sectionref", sectionRefContact);
       }
     };
     const scrollToProject = () => {

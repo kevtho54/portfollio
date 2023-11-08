@@ -12,6 +12,10 @@
     display: flex;
     gap: 20px;
 }
+.logoMenu{
+  width: 65px;
+  display: none; /*permet au logo de ne pas apparaitre en mode bureau*/
+}
 .imgHeader{
     margin-left: 10px;
     margin-top: 9px;
@@ -22,7 +26,7 @@
 .nav_ul{
     display: flex;
     gap: 30px;
-    margin-right: 50px;
+    margin-right: 20px;
     list-style-type:none;
 }
 .nav_a{
@@ -34,34 +38,85 @@ button{
     cursor: pointer;
 }
 
+
+
 /* Annimation logo*/
 
- @-webkit-keyframes pulsate-bck {
-    0% {
-      -webkit-transform: scale(1);
-              transform: scale(1);
-    }
-    50% {
-      -webkit-transform: scale(0.9);
-              transform: scale(0.9);
-    }
-    100% {
-      -webkit-transform: scale(1);
-              transform: scale(1);
-    }
+@-webkit-keyframes pulsate-bck {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
   }
-  @keyframes pulsate-bck {
-    0% {
-      -webkit-transform: scale(1);
-              transform: scale(1);
-    }
-    50% {
-      -webkit-transform: scale(0.9);
-              transform: scale(0.9);
-    }
-    100% {
-      -webkit-transform: scale(1);
-              transform: scale(1);
-    }
+  50% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes pulsate-bck {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+/* nav bar en mode mobile avec menu hamburger */
+@media  screen and (max-width: 576px) {
+  .txt_linkedin{
+    display: none;
   }
   
+}
+@media screen and (max-width: 992px) {
+ 
+  .nav_ul {
+    
+    top: 0;
+    left: 0;
+    position: absolute;
+    margin-top: 0;
+    padding: 0;
+    background-color: rgba(22, 21, 21, 0.984);
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: -100%; /* permet au menu de ne pas etre affiché par defaut */
+    gap: 50px;
+  }
+  
+  .nav_ul.mobileMenu{
+    transition: margin-left 0.8s ease;
+   margin-left: 100%; /* le menu s'affiche losque je clique sur le bouton menu */
+   
+  }
+   .logoMenu{
+    display: block;
+    z-index: 1;
+    width: 50px;
+    margin-right: 10px;
+  }
+  
+  .nav_a{
+    font-size: 1.5rem;
+  }
+  .nav_ul.mobileMenu.logoMenu{
+    display: none;
+  }
+ 
+ 
+  /* Autres styles pour le mode bureau */
+}
+

@@ -20,7 +20,7 @@ function Footer() {
             </a>
           </li>
         </ul>
-        <p>© 2023 Thomassin Kévin. Tous droits réservés.</p>
+        <p className={style.txt_footer}>© 2023 Thomassin Kévin. Tous droits réservés.</p>
       </div>
     </footer>
   );

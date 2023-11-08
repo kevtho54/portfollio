@@ -33,10 +33,26 @@ textarea{
     height: 150px;
 }
 .btnContact{
-    width: 25%;
+    width: 120px;
     margin: auto;
     border-radius: 20px;
     height: 40px;
     margin-bottom: 50px;
     font-size: 1.1rem;
+}
+@media screen and (max-width:768px) {
+  .contactTitle{
+    font-size: 1.9rem;
+    text-align: center;
+  }
+  label{
+    font-size: 1.2rem;
+  }
+   
+    
+}
+@media screen and (max-width:576px) {
+    form{
+     width: 80%;
+    }
 }

@@ -12,136 +12,62 @@
 .contenerCard{
     width: 90%;
     display: flex;
-    flex-wrap: wrap;
+   flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-    -webkit-animation: bounce-in-right 1.5s both;
-	        animation: bounce-in-right 1.5s both;
     
 }
 .card{
-    width: 15%;
-    background: rgb(1,0,0);
-    background: rgb(1,0,0);
-    background: linear-gradient(131deg, rgba(1,0,0,1) 0%, rgba(16,15,28,1) 64%, rgba(52,184,22,1) 100%);
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
+        width: 15%;
+        background: rgb(1,0,0);
+        background: rgb(1,0,0);
+        background: linear-gradient(131deg, rgba(1,0,0,1) 0%, rgba(16,15,28,1) 64%, rgba(52,184,22,1) 100%);
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
 }
 .imgCard{
-    width: 25%;
-    margin-top: 20px;
+        width: 25%;
+        margin-top: 20px;
 }
 .titleCard{
         font-size: 1.3rem;
 }
-/*animation */
- @-webkit-keyframes bounce-in-right {
-    0% {
-      -webkit-transform: translateX(600px);
-              transform: translateX(600px);
-      -webkit-animation-timing-function: ease-in;
-              animation-timing-function: ease-in;
-      opacity: 0;
-    }
-    38% {
-      -webkit-transform: translateX(0);
-              transform: translateX(0);
-      -webkit-animation-timing-function: ease-out;
-              animation-timing-function: ease-out;
-      opacity: 1;
-    }
-    55% {
-      -webkit-transform: translateX(68px);
-              transform: translateX(68px);
-      -webkit-animation-timing-function: ease-in;
-              animation-timing-function: ease-in;
-    }
-    72% {
-      -webkit-transform: translateX(0);
-              transform: translateX(0);
-      -webkit-animation-timing-function: ease-out;
-              animation-timing-function: ease-out;
-    }
-    81% {
-      -webkit-transform: translateX(32px);
-              transform: translateX(32px);
-      -webkit-animation-timing-function: ease-in;
-              animation-timing-function: ease-in;
-    }
-    90% {
-      -webkit-transform: translateX(0);
-              transform: translateX(0);
-      -webkit-animation-timing-function: ease-out;
-              animation-timing-function: ease-out;
-    }
-    95% {
-      -webkit-transform: translateX(8px);
-              transform: translateX(8px);
-      -webkit-animation-timing-function: ease-in;
-              animation-timing-function: ease-in;
-    }
-    100% {
-      -webkit-transform: translateX(0);
-              transform: translateX(0);
-      -webkit-animation-timing-function: ease-out;
-              animation-timing-function: ease-out;
-    }
+
+
+@media   (min-Width: 768px) and (max-width: 992px) {
+        .contenerCard{
+                gap: 0px;
+        }
+        .card{
+                width: 40%;
+                margin: 20px;
+                
+        }
+        
+}
+@media screen and (max-width:768px) {
+        .title_language{
+                text-align: center;
+                font-size: 1.8rem;
+        }
+        .card{
+                width: 100%;
+        }
+       
+        
   }
-  @keyframes bounce-in-right {
-    0% {
-      -webkit-transform: translateX(600px);
-              transform: translateX(600px);
-      -webkit-animation-timing-function: ease-in;
-              animation-timing-function: ease-in;
-      opacity: 0;
+  @media   (min-Width: 568px) and (max-width: 768px) {
+       
+        .card{
+            width: 42%;
+            
+            
+        }
+        
     }
-    38% {
-      -webkit-transform: translateX(0);
-              transform: translateX(0);
-      -webkit-animation-timing-function: ease-out;
-              animation-timing-function: ease-out;
-      opacity: 1;
-    }
-    55% {
-      -webkit-transform: translateX(68px);
-              transform: translateX(68px);
-      -webkit-animation-timing-function: ease-in;
-              animation-timing-function: ease-in;
-    }
-    72% {
-      -webkit-transform: translateX(0);
-              transform: translateX(0);
-      -webkit-animation-timing-function: ease-out;
-              animation-timing-function: ease-out;
-    }
-    81% {
-      -webkit-transform: translateX(32px);
-              transform: translateX(32px);
-      -webkit-animation-timing-function: ease-in;
-              animation-timing-function: ease-in;
-    }
-    90% {
-      -webkit-transform: translateX(0);
-              transform: translateX(0);
-      -webkit-animation-timing-function: ease-out;
-              animation-timing-function: ease-out;
-    }
-    95% {
-      -webkit-transform: translateX(8px);
-              transform: translateX(8px);
-      -webkit-animation-timing-function: ease-in;
-              animation-timing-function: ease-in;
-    }
-    100% {
-      -webkit-transform: translateX(0);
-              transform: translateX(0);
-      -webkit-animation-timing-function: ease-out;
-              animation-timing-function: ease-out;
-    }
-  }
   
   
   
