@@ -16,7 +16,7 @@ return (
       <Carrousel  selectedProject={selectedProject}/>
        
      <p className={style.txt_modal}>{selectedProject.texte}</p>
-     <button><a href={selectedProject.code} target="blank">Code source</a></button>
+     <button className={style.btn_code}><a className={style.txt_btn} href={selectedProject.code} target="blank">Code source</a></button>
 
   </div>
 );

@@ -38,5 +38,12 @@
     .thumbs-wrapper{
         display: none;
     }
-    
+    .carousel .carousel-status, .control-dots{
+       display: none;
+    }
+   
+    .fullScreen{
+        width: 100%;
+        background-color: red;
+    }
 }
